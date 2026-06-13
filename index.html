@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="This is a website project thatt talks about coffee. Hope you like it.">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <link rel="icon" href="weblogo.png" type="png">
+        <title>Coffee House</title>
+    </head>
+    <body>
+        <section id="section1">
+            <header>
+                <img src="weblogo.png" alt="weblogo" id="weblogo">
+                <h1 id="webname">Coffee House</h1>
+                <q id="quote">Sip, smile, and seize the day.</q>
+            </header>
+            <h1 id="coffee-house">Coffee <span>House</span></h1>
+            <img src="img1.png" id="img1" alt="Main-Coffee">
+            <img src="bgDecorater1.png" id="deco1" alt="decoraters">
+            <img src="bgDecorater1.png" id="deco2" alt="decoraters">
+            <img src="bgDecorater2.png" id="deco3" alt="decoraters">
+            <p id="dis">
+                Explore our finest coffee blends, expertly <br>
+                roasted and brewed to perfection, offering a rich, <br>
+                a romatic experience that awakens your senses. Make <br>
+                every moment unforgettable.
+            </p>
+        </section>
+        <section id="section2">
+            <h2 id="our-origin">coffee's origin</h2>
+            <p id="origin-dis">
+                The history of coffee dates back centuries, first from its <br>
+                origin in Ethiopia and Yemen. It was already known in <br>
+                Mecca in the 15th century. Also, in the 15th century, Sufi <br>
+                Muslim monasteries (khanqahs) in Yemen employed <br>
+                coffee as an aid to concentration during prayers. Coffee <br>
+                later spread to the Levant in the early 16th century; it <br>
+                caused some controversy on whether it was halal in <br>
+                Ottoman and Mamluk society. Coffee arrived in Italy in the <br>
+                second half of the 16th century through commercial <br>
+                Mediterranean trade routes, while Central and Eastern <br>
+                Europeans learned of coffee from the Ottomans. By the <br>
+                mid 17th century, it had reached India and the East Indies. 
+            </p>
+            <button onclick="showDis()" id="show-more-dis">Read more <ion-icon name="arrow-forward-outline"></ion-icon></button>
+            <div id="more-dis">
+                <button id="close-dis-btn" onclick="closeDis()"><ion-icon name="close-outline"></ion-icon></button>
+                <p id="more-dis-para">
+                    Coffee houses were established in Western Europe by the late 17th century, especially
+                    in Holland, England, and Germany. One of the earliest cultivations of coffee in the New World 
+                    was when Gabriel de Clieu brought coffee seedlings to Martinique in 1720. These beans later
+                    sprouted 18,680 coffee trees which enabled its spread to other Caribbean islands such as 
+                    Saint-Domingue and also to Mexico. By 1788, Saint-Domingue supplied half the world's coffee.
+                    By 1852, Brazil became the world's largest producer of coffee and has held that status ever 
+                    since. Since 1950, several other major producers emerged, notably Colombia, Ivory Coast, Ethiopia, 
+                    and Vietnam; the latter overtook Colombia and became the second-largest producer in 1999.
+                    The word coffee entered the English language in 1582 via the Dutch koffie, borrowed from the 
+                    Ottoman Turkish kahve (قهوه), borrowed in turn from the Arabic qahwah (قَهْوَة).[3] Medieval Arab 
+                    lexicographers traditionally held that the etymology of qahwah meant 'wine', given its distinctly 
+                    dark color, and derived from the verb qahiya (قَهِيَ), 'to have no appetite'.[4] The word qahwah most 
+                    likely meant 'dark', referring to the brew or the bean. Semitic languages had the root qhh, "dark color", 
+                    which became a natural designation for the beverage.[4] There is no evidence that the word qahwah 
+                    was named after the Ethiopian province of Kaffa (a part of where coffee originates from: Abyssinia),
+                    [4] or any significant authority stating the opposite, or that it is traced to the Arabic quwwa 
+                    ("power"). A different term for 'coffee', widespread in languages of Ethiopia, is buna, bun, būn or 
+                    buni (depending on the language). Most often the word group has been assumed to originate from Arabic bunn (بن) 
+                    meaning specifically the coffee bean, but indigenous origin in Cushitic has been proposed as a possibility as well. <br>
+                    <i>- copied from <span id="dis-span"><abbr title="If you want reference: https://en.wikipedia.org/wiki/History_of_coffee">Wikipedia</abbr></span></i>
+                </p>
+            </div>
+            <div>
+                <div id="img-container">
+                    <div id="img-box"></div>
+                </div>
+            </div>
+        </section>
+        <section id="img-section">
+            <div id="section-img1">
+                <h2 class="texts">
+                    Stay productive while enjoying <br>
+                    a cup of our beloved coffee.
+                </h2>
+            </div>
+            <div id="section-img2">
+                <h2 class="texts">
+                    Enjoy a cup of our coffee while <br>
+                    taking in the beautiful view.
+                </h2>
+            </div>
+            <div id="section-img3">
+                <h2 class="texts">
+                    Sip your coffee and enjoy <br>
+                    listening to your friends.
+                </h2>
+            </div>
+        </section>
+        <footer id="service-section">
+            <h1 id="name">Coffee House</h1>
+            <p id="footer-dis">
+                Coffee House is a cozy corner on the web where <br>
+                you can learn about the origins of coffee, enjoy <br>
+                inspiring moments, and celebrate the love of <br>
+                every brew.
+            </p>
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://un  pkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
